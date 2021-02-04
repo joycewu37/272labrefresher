@@ -6,4 +6,5 @@ class Task < ApplicationRecord
   validates_numericality_of :points, :only_integer => true, :greater_than_or_equal_to => 0
 
   scope :alphabetical, -> { order('name') }
+  scope :active, -> { where(active: true)}
 end
