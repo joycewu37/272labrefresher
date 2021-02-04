@@ -1,4 +1,5 @@
-# TODO: SimpleCov required here...
+require 'simplecov'
+SimpleCov.start 'rails'
 
 
 
