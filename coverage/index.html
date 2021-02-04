@@ -14,7 +14,7 @@
       <img src="./assets/0.10.2/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2021-02-04T15:45:26-05:00">2021-02-04T15:45:26-05:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2021-02-04T15:46:58-05:00">2021-02-04T15:46:58-05:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -163,7 +163,7 @@
       <tr>
         <td class="strong"><a href="#d2e80619327dc8da159988a98c31cb27c1f51fe3" class="src_link" title="app/models/task.rb">app/models/task.rb</a></td>
         <td class="green strong">100.0 %</td>
-        <td>7</td>
+        <td>9</td>
         <td>5</td>
         <td>5</td>
         <td>0</td>
@@ -318,7 +318,7 @@
       <tr>
         <td class="strong"><a href="#d2e80619327dc8da159988a98c31cb27c1f51fe3" class="src_link" title="app/models/task.rb">app/models/task.rb</a></td>
         <td class="green strong">100.0 %</td>
-        <td>7</td>
+        <td>9</td>
         <td>5</td>
         <td>5</td>
         <td>0</td>
@@ -2320,10 +2320,22 @@
         <li class="covered" data-hits="1" data-linenumber="6">
           <span class="hits">1</span>
           
-          <code class="ruby">    validates_numericality_of :points</code>
+          <code class="ruby">    validates_numericality_of :points, :only_integer =&gt; true, :greater_than_or_equal_to =&gt; 0</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="7">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="8">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="9">
           
           
           <code class="ruby">end</code>
