@@ -46,6 +46,12 @@
         2,
         2,
         2,
+        2,
+        null,
+        1,
+        2,
+        1,
+        null,
         null
       ],
       "/Users/joycewu/Downloads/67-373/lab5-choretracker-starter/app/models/application_record.rb": [
@@ -333,6 +339,6 @@
         0
       ]
     },
-    "timestamp": 1612541216
+    "timestamp": 1612541375
   }
 }
