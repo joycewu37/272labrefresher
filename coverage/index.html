@@ -14,26 +14,26 @@
       <img src="./assets/0.10.2/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2021-02-05T11:04:43-05:00">2021-02-05T11:04:43-05:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2021-02-05T11:06:56-05:00">2021-02-05T11:06:56-05:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
         <div class="file_list_container" id="AllFiles">
   <h2>
     <span class="group_name">All Files</span>
-    (<span class="covered_percent"><span class="red">12.9%</span></span>
+    (<span class="covered_percent"><span class="red">13.83%</span></span>
      covered at
      <span class="covered_strength">
        <span class="red">
-         0.15
+         0.17
        </span>
     </span> hits/line)
   </h2>
   <a name="AllFiles"></a>
   <div>
     <b>12</b> files in total.
-    <b>186</b> relevant lines. 
-    <span class="green"><b>24</b> lines covered</span> and
+    <b>188</b> relevant lines. 
+    <span class="green"><b>26</b> lines covered</span> and
     <span class="red"><b>162</b> lines missed </span>
   </div>
   <table class="file_list">
@@ -153,11 +153,11 @@
       <tr>
         <td class="strong"><a href="#601edd66977e005eeb0eb2a68d480f56288f54ed" class="src_link" title="app/models/chore.rb">app/models/chore.rb</a></td>
         <td class="green strong">100.0 %</td>
-        <td>10</td>
-        <td>7</td>
-        <td>7</td>
+        <td>12</td>
+        <td>9</td>
+        <td>9</td>
         <td>0</td>
-        <td>1.6</td>
+        <td>1.7</td>
       </tr>
       
       <tr>
@@ -256,19 +256,19 @@
           <div class="file_list_container" id="Models">
   <h2>
     <span class="group_name">Models</span>
-    (<span class="covered_percent"><span class="green">96.0%</span></span>
+    (<span class="covered_percent"><span class="green">96.3%</span></span>
      covered at
      <span class="covered_strength">
        <span class="green">
-         1.13
+         1.2
        </span>
     </span> hits/line)
   </h2>
   <a name="Models"></a>
   <div>
     <b>4</b> files in total.
-    <b>25</b> relevant lines. 
-    <span class="green"><b>24</b> lines covered</span> and
+    <b>27</b> relevant lines. 
+    <span class="green"><b>26</b> lines covered</span> and
     <span class="red"><b>1</b> lines missed </span>
   </div>
   <table class="file_list">
@@ -308,11 +308,11 @@
       <tr>
         <td class="strong"><a href="#601edd66977e005eeb0eb2a68d480f56288f54ed" class="src_link" title="app/models/chore.rb">app/models/chore.rb</a></td>
         <td class="green strong">100.0 %</td>
-        <td>10</td>
-        <td>7</td>
-        <td>7</td>
+        <td>12</td>
+        <td>9</td>
+        <td>9</td>
         <td>0</td>
-        <td>1.6</td>
+        <td>1.7</td>
       </tr>
       
       <tr>
@@ -2235,8 +2235,8 @@
     <h3>app/models/chore.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
     <div>
-      <b>7</b> relevant lines. 
-      <span class="green"><b>7</b> lines covered</span> and
+      <b>9</b> relevant lines. 
+      <span class="green"><b>9</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
   </div>
@@ -2298,7 +2298,19 @@
           <code class="ruby">  scope :pending, -&gt; { where(completed: false) }</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="10">
+        <li class="covered" data-hits="2" data-linenumber="10">
+          <span class="hits">2</span>
+          
+          <code class="ruby">  scope :done, -&gt; { where(completed: true) }</code>
+        </li>
+      
+        <li class="covered" data-hits="2" data-linenumber="11">
+          <span class="hits">2</span>
+          
+          <code class="ruby">  scope :upcoming, -&gt; { where(&#39;due_on &gt;= ?&#39;, Time.now.to_date) }</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="12">
           
           
           <code class="ruby">end</code>
