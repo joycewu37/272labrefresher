@@ -44,7 +44,7 @@
         3,
         2,
         2,
-        2,
+        4,
         2,
         2,
         null,
@@ -67,8 +67,8 @@
         1,
         1,
         null,
-        1,
-        1,
+        3,
+        2,
         null
       ],
       "/Users/joycewu/Downloads/67-373/lab5-choretracker-starter/app/models/child.rb": [
@@ -79,11 +79,15 @@
         1,
         1,
         null,
-        1,
-        1,
+        3,
+        2,
         null,
         1,
-        0,
+        3,
+        null,
+        null,
+        1,
+        5,
         null,
         null
       ],
@@ -339,6 +343,6 @@
         0
       ]
     },
-    "timestamp": 1612541375
+    "timestamp": 1612542065
   }
 }
